@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Table </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--
+    <TABLE BORDER="1"  CELLPADDING="10" CELLSPACING="0">
+         <TR>
+
+            <TD ALIGN ="center"  COLSPAN="2" ROWSPAN="2">1</TD>
+            <TD ALIGN ="center" COLSPAN="2" >2</TD>
+         </TR>
+
+         <TR>
+
+            <td>3</td>
+            <td>4</td>
+
+         </TR>
+
+         <TR>
+              <TD ALIGN ="center" ROWSPAN="2">5</TD>
+              <TD ALIGN ="center" COLSPAN="3" >6</TD>
+
+         </TR>
+
+
+         <TR>
+             <td>7</td>
+             <td>8</td>
+             <td>9</td>
+
+         </TR>
+
+     </TABLE>
+-->
+    <div class="logo">
+       <h1>Форма регистрации</h1>
+    </div>
+
+
+<form action="job_request_form" method ="POST">
+Ваше имя <br> <input type="text" name="lastname">
+<br>
+Ваше email: <br> <input type="text" name="email">
+<br>
+Пол:<br> <select name="gender">
+<option checked>Не выбрано</option>
+<option value="male">Мужской</option>
+<option value="female">Женский</option>
+</select>
+
+<input type="hidden" name="user_id" value="15515151551">
+
+<br>
+Пользователь <input type="radio" name="status" value="user">
+Менеджер <input type="radio" name="status" value="manager">
+Админ <input type="radio" name="status" value="admin">
+
+<p> Выберите интересы пользователя</p>
+<input type="checkbox" name="auto"> Авто |
+<input type="checkbox" name="fish"> Рыбалка |
+
+<br>
+<input type="submit" name="submit" value="Отправить">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

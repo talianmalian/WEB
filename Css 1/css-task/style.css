@@ -1,0 +1,255 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*  Header  */
+
+h1{
+    width: 850px;
+    font-size: 117px;
+    line-height: 0.8em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 240px;
+    padding-bottom: 110px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+.header div{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.container{
+
+    margin: 0;
+}
+
+.header{
+
+    width: 100%;
+    height: 930px;
+    background-image: url( images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header .container p{
+
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Epilogue', sans-serif;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.5em;
+    font-weight: 500;
+
+}
+.container .btn{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+    border: 2px solid #000;
+    background-color: #000;
+    padding: 1em 3em;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 40px;
+    transition:  .3s linear;
+}
+.container .btn:hover{
+
+     color: #000;
+      background-color: #fff;
+    border: 2px solid #000;
+}
+
+/* Nav */
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    height: 93px;
+    padding-left: 15%;
+}
+
+.container ul li{
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    color: #fff;
+    padding: 0 15px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+
+.container ul li:hover{
+
+
+    cursor:    pointer;
+    background-color: #477afa;
+}
+
+
+
+.nav {
+    background-color: #000;
+
+
+}
+
+/* Main*/
+
+.main__text{
+
+
+}
+
+
+
+
+.main .container{
+    height: 416px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Epilogue', sans-serif;
+    padding-bottom: 20px;
+}
+
+.main .container p{
+    font-family: 'Epilogue', sans-serif;
+    width: 800px;
+    text-align: justify;
+    padding-bottom: 20px;
+
+}
+
+.main .container img{
+
+    margin-left: 15%;
+    margin-right: 90px;
+    padding: 0;
+}
+
+/*Jumbotron*/
+
+
+.jumbotron{
+
+    height: 720px;
+    background-image: url(images/jumbotron_bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 27%;
+    padding-top: 270px;
+
+
+}
+
+.jumbotron .container h2{
+
+    font-family: 'Epilogue', sans-serif;
+    color: #fff;
+
+}
+
+.jumbotron .container p{
+
+    font-family: 'Epilogue', sans-serif;
+    color: #fff;
+    font-weight: 100;
+
+}
+
+
+.jumbotron .container .btn{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+    border: 2px solid #000;
+    background-color: #477afa;
+    padding: 1em 3em;
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 40px;
+    transition:  .3s linear;
+}
+.jumbotron .container .btn:hover{
+
+     color: #000;
+      background-color: #fff;
+    border: 2px solid #000;
+}
+
+
+/* Footer */
+
+.footer{
+
+
+    background-color: #000;
+}
+
+.footer .container {
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

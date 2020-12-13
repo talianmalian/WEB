@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.button_magic{
+    
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+    outline: none;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    transition: .2s;
+    
+}
+
+
+.button_magic:active{
+    transform: scale(0.9);
+    background-color: aliceblue;
+    font-size: 0px;
+    background-position: center center;
+    background-image: url(../assets/magician-hat.png);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    
+}
+.button_magic:hover{
+    
+    text-transform: lowercase;
+  
+    
+}
+
+
+
+
+
